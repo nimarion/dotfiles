@@ -1,0 +1,20 @@
+- defaults:
+      link:
+        create: true
+        force: true
+
+- clean: ['~']
+
+- link:
+    ~/.zshrc: zshrc
+    ~/.p10k.zsh: p10k.zsh
+    ~/.config/alacritty:
+        path: config/alacritty/
+    ~/.config/polybar: 
+        path: config/polybar/
+    ~/.config/rofi:
+        path: config/rofi/
+    ~/.config/i3:
+        path: config/i3/
+
+
