@@ -52,7 +52,7 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+q kill
 
 # use $mod+Escape to lock the screen
-bindsym $mod+Escape exec i3lock -c 000000
+bindsym $mod+Escape exec $HOME/.config/i3/i3lock-solarized-dark.sh
 
 # use $mod+d to start rofi
 bindcode $mod+40 exec "rofi -modi drun,run -show drun"
