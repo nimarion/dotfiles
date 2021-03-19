@@ -9,6 +9,8 @@
     ~/.zshrc: zshrc
     ~/.p10k.zsh: p10k.zsh
     ~/.config/.wallpaper.jpg: wallpaper.jpg
+    ~/.gitconfig: gitconfig
+    ~/.config/dunst/dunstrc: dunstrc
     ~/.oh-my-zsh:
       relink: true
       path: ohmyzsh/

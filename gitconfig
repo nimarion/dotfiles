@@ -1,0 +1,9 @@
+[user]
+        name = Niklas Marion
+        email = niklas.marion@gmx.de
+        signingkey = 075B0476A0D84927
+[commit]
+        gpgSign = true
+[alias]
+	graph = log --all --graph --decorate --oneline
+        
