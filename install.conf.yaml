@@ -9,6 +9,18 @@
     ~/.zshrc: zshrc
     ~/.p10k.zsh: p10k.zsh
     ~/.config/.wallpaper.jpg: wallpaper.jpg
+    ~/.oh-my-zsh:
+      relink: true
+      path: ohmyzsh/
+    ~/.oh-my-zsh/custom/themes/powerlevel10k:
+      path: powerlevel10k/
+      relative: false
+    ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions:
+      path: zsh-autosuggestions/
+      relative: false
+    ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting:
+      path: zsh-syntax-highlighting/
+      relative: false
     ~/.bin:
         path: bin/
     ~/.config/alacritty:
@@ -19,5 +31,8 @@
         path: config/rofi/
     ~/.config/i3:
         path: config/i3/
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
 
 
