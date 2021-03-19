@@ -9,6 +9,8 @@
     ~/.zshrc: zshrc
     ~/.p10k.zsh: p10k.zsh
     ~/.config/.wallpaper.jpg: wallpaper.jpg
+    ~/.bin:
+        path: bin/
     ~/.config/alacritty:
         path: config/alacritty/
     ~/.config/polybar: 
